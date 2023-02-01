@@ -36,6 +36,7 @@ Astrometric positioning from the detected class of star features is provided by 
 This example can be recovered by running `<. getdata.sh>` and `<. rundemo.sh>`. The "potential ASO" detections are marked in red from post-processing, given the *a-contrario* trajectory detections shown in green. The Navstar-48 (Medium Earth Orbit) GPS satellite is used as an example to demonstrate effectiveness on low-tracking-noise active tracking (MEO-GEO objects) and object discovery.  The actively tracked Navstar is in the center of the frame and an Unexpected Orbital Object is in the lower right. Tracking Data Messages can be found in the `<docs>` folder for both detections. The data and results can be interactively visualized at: [Interactive Plot](https://rawcdn.githack.com/ut-astria/PyCIS/a8e97de3d011fba8009c3ae52f2da0ea115e7fb2/docs/20201224_26407_navstar-48.html) for further visualization. 
 
 ![Demo Video](docs/20201224_26407_navstar-48.gif)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiscovery-to-impact%2FPyCIS.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdiscovery-to-impact%2FPyCIS?ref=badge_shield)
 
 Demo script takes approximatly 3hrs (with 1-pixel binning and windows of 20 and 30 frames), for a 93-frame 11-minute observation.  The implementation is not yet optimized, and future speed-up is expected.  This was tested on a single Skylake node of the Stampede2 system of the Texas Advanced Computing Center at the University of Texas at Austin.  
 
@@ -173,3 +174,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 ------------------------------------------------------------------
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiscovery-to-impact%2FPyCIS.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdiscovery-to-impact%2FPyCIS?ref=badge_large)
